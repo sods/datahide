@@ -6,13 +6,13 @@ layout: post
   <article class="post-content">
     {{ page.tagline }}
     <p><b>Venue:</b> {{ page.venue }} <br>
-    <p><b>Date:</b> {{ page.date | date: "%b %-d, %Y" }}
+    <p><b>Date:</b> {{ page.date | date: "%b %-d, %Y" }}<br><br>
 
       {% for talk in page.talks %}
-      {{ talk.start }} - {{ talk.end }} <b>{{ talk.title }}</b> {{ talk.speaker }}<br>
+      {{ talk.start }} - {{ talk.end }} <b>{{ talk.title | markdownify }}</b> {{ talk.speaker | markdownify }}<br>
       {% endfor %}
 
-      There will be food and drink by <a href="http://www.percyandlilys.co.uk/">Percy and Lilly's</a>
+      <p>There will be food and drink by <a href="http://www.percyandlilys.co.uk/">Percy and Lilly's</a>
 
     {{ content }}
 
