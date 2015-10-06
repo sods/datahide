@@ -3,7 +3,7 @@ title: The Data Hide
 #email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   The Data Hide is a series of monthly meetings organised by the Open Data Science Initiative.
-baseurl: "/datahide/" # the subpath of your site, e.g. /blog/
+baseurl: "datahide/" # the subpath of your site, e.g. /blog/
 url: "http://opendsi.cc" # the base hostname & protocol for your site
 twitter_username: datascienceshef
 github_username:  sods
