@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "Artificial Intelligence"
-tagline: Wolfram Research and lightning talks from Mike and Neil.
+tagline: Wolfram Research and lightning talks from Mike and Neil
+venue: "[The Hide](post.venuhttps://www.facebook.com/TheHideS3)"
+time: "17:00"
 ---
 
 Three talks this week:

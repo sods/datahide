@@ -2,6 +2,9 @@
 layout: post
 title:  "Welcome to Sheffield"
 tagline: Opening event at the Hide and a warm welcome to new students in Sheffield.
+venue: "[The Hide](post.venuhttps://www.facebook.com/TheHideS3)"
+time: "17:00"
+
 ---
 
 This is the Launch Meeting of the "Data Hide". 
