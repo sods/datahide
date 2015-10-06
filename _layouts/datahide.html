@@ -1,0 +1,22 @@
+---
+layout: post
+---
+<div class="post">
+
+  <article class="post-content">
+    {{ page.title 
+    {{ page.tagline }}
+    <p><b>Venue:</b> {{ page.venue }} <br>
+    <p><b>Date:</b> {{ page.date | date: "%b %-d, %Y" }}
+
+      {% for talk in page.talks %}
+      {{ talk.start }} - {{ talk.end }} <b>{{ talk.title }}</b> {{ talk.speaker }}<br>
+      {% endfor %}
+
+      There will be food and drink by <a href="http://www.percyandlilys.co.uk/">Percy and Lilly's</a>
+
+    {{ content }}
+
+  </article>
+
+</div>
