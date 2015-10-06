@@ -6,7 +6,7 @@ venue: "[The Hide](post.venuhttps://www.facebook.com/TheHideS3)"
 time: "17:00"
 ---
 
-Three talks this week:
+Three talks this month:
 
 17:00-17:30 Invited Talk from Wolfram Research
 
