@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: datahide
 title:  "Welcome to Sheffield"
 tagline: Opening event at the Hide and a warm welcome to new students in Sheffield.
-venue: "[The Hide](post.venuhttps://www.facebook.com/TheHideS3)"
+venue: "[The Hide](https://www.facebook.com/TheHideS3)"
 time: "17:00"
 
 ---
