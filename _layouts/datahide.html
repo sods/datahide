@@ -5,14 +5,16 @@ layout: post
 
   <article class="post-content">
     {{ page.tagline }}
-    <p><b>Venue:</b> {{ page.venue | markdownify }} <br>
-    <p><b>Date:</b> {{ page.date | date: "%b %-d, %Y" }}<br><br>
-
+    <table>
+    <tr><td><b>Venue:</b> </td><td>{{ page.venue | markdownify }} </td></tr>
+    <tr><td><b>Date:</b> </td><td>{{ page.date | date: "%b %-d, %Y" }}</td></tr>
+    </table>
+    <table>
       {% for talk in page.talks %}
-      {{ talk.start }} - {{ talk.end }} <b>{{ talk.title | markdownify }}</b> {{ talk.speaker | markdownify }}<br>
+      <tr><td>{{ talk.start }} - {{ talk.end }}</td><td> <b>{{ talk.title | markdownify }}</b> </td><td> {{ talk.speaker | markdownify }}</td>
       {% endfor %}
-
-      <p>There will be food and drink by <a href="http://www.percyandlilys.co.uk/">Percy and Lilly's</a>
+    </table>
+    <p>There will be food and drink by <a href="http://www.percyandlilys.co.uk/">Percy and Lilly's</a>
 
     {{ content }}
 
