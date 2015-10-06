@@ -3,6 +3,8 @@ layout: default
 title: The Data Hide Meetings
 ---
 
+# Meetings
+
 {% for post in site.posts %}
 - [{{ post.title }}]({{ post.url | prepend: site.baseurl }}) 17:00 on {{ post.date | date: "%b %-d, %Y" }} at [The Hide](https://www.facebook.com/TheHideS3)
 {% endfor %}
