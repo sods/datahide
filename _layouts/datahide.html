@@ -5,7 +5,7 @@ layout: post
 
   <article class="post-content">
     {{ page.tagline }}
-    <p><b>Venue:</b> {{ page.venue }} <br>
+    <p><b>Venue:</b> {{ page.venue | markdownify }} <br>
     <p><b>Date:</b> {{ page.date | date: "%b %-d, %Y" }}<br><br>
 
       {% for talk in page.talks %}
