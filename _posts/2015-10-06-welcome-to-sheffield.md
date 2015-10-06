@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Sheffield"
+tagline: Opening event at the Hide and a warm welcome to new students in Sheffield.
 ---
 
 This is the Launch Meeting of the "Data Hide". 

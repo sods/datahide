@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Artificial Intelligence"
+tagline: Wolfram Research and lightning talks from Mike and Neil.
 ---
 
 Three talks this week:
