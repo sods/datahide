@@ -8,8 +8,8 @@ time: "17:00"
 talks:
 - title: "Welcome to Sheffield"
   speaker: [Neil Lawrence](http://inverseprobability.com)
-  start: 17:30
-  end: 17:45
+  start: "17:30"
+  end: "17:45"
 ---
 
 This is the Launch Meeting of the "Data Hide". 
