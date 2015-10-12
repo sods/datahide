@@ -5,7 +5,7 @@ tagline: Opening event at the Hide and a warm welcome to new students in Sheffie
 date: "2015-09-29 17:00"
 venue: "[The Hide](https://www.facebook.com/TheHideS3)"
 time: "17:00"
-tickets: "[https://www.eventbrite.com/e/the-data-hide-tickets-18817784500](https://www.eventbrite.com/e/the-data-hide-tickets-18817784500)"
+tickets: "[eventbrite](https://www.eventbrite.com/e/the-data-hide-tickets-18817784500)"
 talks:
 - title: "Welcome to Sheffield"
   speaker: "[Neil Lawrence](http://inverseprobability.com)"
