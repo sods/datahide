@@ -6,7 +6,7 @@ title: The Data Hide Meetings
 # Meetings
 
 {% for post in site.posts %}
-- [{{ post.title }}]({{ post.url | prepend: site.baseurl }}) {% if post.time %} {{ post.time }} {% endif %} on {{ post.date | date: "%b %-d, %Y" }}{% if post.venue %} at **{{ post.venue }}**{% endif %}.{% if post.tagline %} *{{ post.tagline }}*.{% endif %}
+- [{{ post.title }}]({{ post.url | prepend: site.baseurl }}) {% if post.time %} {{ post.time }} {% endif %} on {{ post.date | date: "%b %-d, %Y" }}{% if post.venue %} at **{{ post.venue }}**{% endif %}.{% if post.tagline %} *{{ post.tagline }}*.{% endif %} {% if post.tickets %}Tickets: {{ post.tickets }}{% endif %}
 {% endfor %}
 
 <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
