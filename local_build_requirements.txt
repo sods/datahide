@@ -1,0 +1,2 @@
+#If you want to build this site locally you need to install ruby and various other things
+#https://help.github.com/articles/using-jekyll-with-pages/#installing-jekyll
