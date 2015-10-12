@@ -6,13 +6,13 @@ layout: post
   <article class="post-content">
     {{ page.tagline }}
     <ul>
-      <li><b>Venue:</b> {{ page.venue | markdownify }} </li>
+      <li><b>Venue:</b> {{ page.venue | remove: '<p>' | remove: '</p>' | strip_newlines }} </li>
       <li><b>Date:</b> {{ page.date | date: "%b %-d, %Y" }}</li>
-      {% if page.tickets %}<li><b>Tickets:</b> {{ page.tickets | markdownify }} (Registration is compulsory)</li>{% endif %}
+      {% if page.tickets %}<li><b>Tickets:</b> {{ page.tickets | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</li>{% endif %}
     </ul>
     <ul>
       {% for talk in page.talks %}
-      <li>{{ talk.start }} - {{ talk.end }} <b>{{ talk.title | markdownify }}</b> {{ talk.speaker | markdownify }}</li>
+      <li>{{ talk.start }} - {{ talk.end }} <b>{{ talk.title | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</b> {{ talk.speaker | markdownify }}</li>
       {% endfor %}
     </li>
     <p>There will be food and drink by <a href="http://www.percyandlilys.co.uk/">Percy and Lilly's</a>
