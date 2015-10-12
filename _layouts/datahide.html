@@ -6,7 +6,7 @@ layout: post
   <article class="post-content">
     {{ page.tagline }}
     <ul>
-      <li><b>Venue:</b> {{ page.venue | remove: '<p>' | remove: '</p>' | strip_newlines }} </li>
+      <li><b>Venue:</b> {{ page.venue | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }} </li>
       <li><b>Date:</b> {{ page.date | date: "%b %-d, %Y" }}</li>
       {% if page.tickets %}<li><b>Tickets:</b> {{ page.tickets | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</li>{% endif %}
     </ul>
