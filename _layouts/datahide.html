@@ -12,7 +12,7 @@ layout: post
     </ul>
     <ul>
       {% for talk in page.talks %}
-      <li>{{ talk.start }} - {{ talk.end }} <b>{{ talk.title | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</b> {{ talk.speaker | markdownify }}</li>
+      <li>{{ talk.start }} - {{ talk.end }} <b>{{ talk.title | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</b> {{ talk.speaker | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</li>
       {% endfor %}
     </li>
     <p>There will be food and drink by <a href="http://www.percyandlilys.co.uk/">Percy and Lilly's</a>
