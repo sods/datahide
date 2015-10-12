@@ -8,6 +8,7 @@ layout: post
     <table>
     <tr><td><b>Venue:</b> </td><td>{{ page.venue | markdownify }} </td></tr>
     <tr><td><b>Date:</b> </td><td>{{ page.date | date: "%b %-d, %Y" }}</td></tr>
+    <tr><td><b>Tickets:</b> </td><td>{{ page.tickets | markdownify }} (Registration is compulsory)</td></tr>
     </table>
     <table>
       {% for talk in page.talks %}
