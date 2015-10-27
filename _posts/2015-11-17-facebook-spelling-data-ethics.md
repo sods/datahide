@@ -8,7 +8,7 @@ tickets:
 talks:
 - start: "17:00"
   end: "17:30"
-  title: "TBA"
+  title: "Learning to spell: Spelling corrections for Facebook Search"
   speaker: "[Daniel Bernhardt](https://www.facebook.com/alone.on.a.hill), Facebook London"
   type: invited
 - start: "18:00"
