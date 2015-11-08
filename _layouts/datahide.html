@@ -20,5 +20,8 @@ layout: post
     {{ content }}
 
   </article>
+  {% if site.comments %}
+  {% include disqus_comment_code.html %}
+  {% endif %}
 
 </div>
