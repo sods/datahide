@@ -18,8 +18,8 @@ talks:
   type: lighting
 - start: "18:15"
   end: "18:20"
-  title: "TBA"
-  speaker: "TBA"
+  title: "Space"
+  speaker: "Paolo Lawrence"
   type: lightning
 - start: "18:30"
   end: "18:35"
