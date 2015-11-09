@@ -19,7 +19,7 @@ talks:
 - start: "18:15"
   end: "18:20"
   title: "Space"
-  speaker: "Paolo Lawrence"
+  speaker: "Paolo Lawrence, St Wilfrid's School, Sheffield"
   type: lightning
 - start: "18:30"
   end: "18:35"

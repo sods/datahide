@@ -9,7 +9,7 @@ twitter_username: datascienceshef
 github_username:  sods
 comments: true
 disqus: opendsicc
-
+banner: banner_image.jpg
 analytics:
   google:
     tracking_id: UA-62964644-1
