@@ -4,7 +4,7 @@ title:  "Internet Spelling and Data Ethics"
 tagline: Coming soon
 venue: "[The Hide](https://www.facebook.com/TheHideS3)"
 date: 2015-11-17 17:00
-tickets: 
+tickets: https://www.eventbrite.co.uk/e/the-data-hide-tickets-19365085492
 talks:
 - start: "17:00"
   end: "17:30"
