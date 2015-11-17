@@ -23,8 +23,7 @@ talks:
   type: lightning
 - start: "18:30"
   end: "18:35"
-  title: "TBA"
-  speaker: "TBA"
+  title: "Information-Theoretic Security"
+  speaker: "Iñaki Esnaola"
   type: lightning
 ---
-
