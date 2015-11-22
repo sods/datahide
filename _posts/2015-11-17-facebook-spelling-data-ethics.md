@@ -18,7 +18,7 @@ talks:
   type: lighting
 - start: "18:15"
   end: "18:20"
-  title: "Space"
+  title: "Space - [Slides](/datahide/slides/november2015/Paolo_Space.pdf)"
   speaker: "Paolo Lawrence, St Wilfrid's School, Sheffield"
   type: lightning
 - start: "18:30"
