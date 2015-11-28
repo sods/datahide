@@ -23,7 +23,7 @@ talks:
   type: lightning
 - start: "18:30"
   end: "18:35"
-  title: "Information-Theoretic Security"
+  title: "Information-Theoretic Security - [Slides](/datahide/slides/november2015/Paolo_Space.pdf)"
   speaker: "Iñaki Esnaola"
   type: lightning
 ---
