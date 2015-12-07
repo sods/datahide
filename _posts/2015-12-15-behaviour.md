@@ -8,8 +8,8 @@ tickets:
 talks:
 - start: "17:00"
   end: "17:30"
-  title: "TBA"
-  speaker: "TBA"
+  title: "Infectious Disease and Risk Factor Mapping"
+  speaker: "Ricardo Andrade Pacheco"
   type: invited
 - start: "18:00"
   end: "18:05"
