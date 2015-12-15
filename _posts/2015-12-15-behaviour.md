@@ -14,16 +14,16 @@ talks:
 - start: "17:30"
   end: "18:00"
   title: "Infectious Disease and Risk Factor Mapping in Uganda"
-  speaker: "Ricardo Andrade Pacheco"
+  speaker: "[Ricardo Andrade Pacheco](http://ric70x7.github.io/)"
   type: invited
 - start: "18:15"
   end: "18:20"
   title: "Open ML"
-  speaker: "Joaquin Vanschoren"
+  speaker: "[Joaquin Vanschoren](http://www.win.tue.nl/~jvanscho/)"
   type: lightning
 - start: "18:30"
   end: "18:35"
   title: "Why I hate IDL"
-  speaker: "Stuart Mumford"
+  speaker: "[Stuart Mumford](http://stuartmumford.uk/)"
   type: lightning
 ---
