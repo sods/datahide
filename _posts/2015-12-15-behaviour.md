@@ -23,7 +23,7 @@ talks:
   type: lightning
 - start: "18:30"
   end: "18:35"
-  title: "TBA"
-  speaker: "TBA"
+  title: "Why I hate IDL"
+  speaker: "Stuart Mumford"
   type: lightning
 ---
