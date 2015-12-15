@@ -4,7 +4,7 @@ title:  "Uganda Disease"
 tagline: "African disease mapping, behaviour and open ML"
 venue: "[The Hide](https://www.facebook.com/TheHideS3)"
 date: 2015-12-15 17:00
-tickets: [Eventbrite](https://www.eventbrite.co.uk/e/the-data-hide-tickets-19895024554)
+tickets: "[Eventbrite](https://www.eventbrite.co.uk/e/the-data-hide-tickets-19895024554)"
 talks:
 - start: "18:00"
   end: "18:05"
