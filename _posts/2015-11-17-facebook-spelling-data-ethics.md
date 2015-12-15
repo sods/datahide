@@ -1,7 +1,7 @@
 ---
 layout: datahide
 title:  "Internet Spelling and Data Ethics"
-tagline: Coming soon
+tagline: Focus on the laws of spelling, information and the land
 venue: "[The Hide](https://www.facebook.com/TheHideS3)"
 date: 2015-11-17 17:00
 tickets: "[Eventbrite](https://www.eventbrite.co.uk/e/the-data-hide-tickets-19365085492)"
