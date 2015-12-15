@@ -1,6 +1,6 @@
 ---
 layout: datahide
-title:  "Uganda Disease"
+title:  "Uganda, Behaviour, Open"
 tagline: "African disease mapping, behaviour and open ML"
 venue: "[The Hide](https://www.facebook.com/TheHideS3)"
 date: 2015-12-15 17:00
